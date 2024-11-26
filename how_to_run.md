@@ -1,8 +1,20 @@
-Step 1 - Inizialize a venv project and activate it
+## Step 1 - Inizialize a venv project and activate it
 
-Step 2 - install the requirements through
+With Python venv
 
-```{bash}
+```bash
+python -m venv my_venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+ 
+
+## Step 2 - install the requirements through
+
+```bash
 pip install -r requirements.txt
 ```
 
